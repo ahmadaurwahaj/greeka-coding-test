@@ -41,8 +41,8 @@ src/
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/ahmadaurwahaj/greeka-coding-test
+   cd greeka-coding-test
    ```
 
 2. **Install Dependencies**
@@ -55,13 +55,15 @@ src/
 
    - Update your database connection settings in `ormconfig.json` or `app.module.ts`.
 
-4. **Run the Application**
+4. **Make sure you add the required .env file**
+
+5. **Run the Application**
 
    ```bash
-   npm run start
+   npm run start:dev
    ```
 
-5. **Access API Documentation**
+6. **Access API Documentation**
    - Visit `http://localhost:3000/api` to view Swagger documentation.
 
 ---
